@@ -72,7 +72,7 @@ function color(dv) {
 	var div = document.getElementById(dv);
 	if(turn == 1)
 	{
-		div.style.backgroundColor = "#39251C";
+		div.style.backgroundColor = "#150101";
 	}
 	if(turn == 2)
 	{
