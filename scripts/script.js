@@ -68,4 +68,16 @@ function turnCheck() {
 	
 }
 
+function color(dv) {
+	var div = document.getElementById(dv);
+	if(turn == 1)
+	{
+		div.style.backgroundColor = "#39251C";
+	}
+	if(turn == 2)
+	{
+		div.style.backgroundColor = "#381B39";
+	}
+}
+
 window.onload = onLoadFunctions;

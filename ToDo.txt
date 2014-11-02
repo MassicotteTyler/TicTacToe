@@ -1,0 +1,4 @@
+-background colours when images dropped
+-zodiac images
+-detect when someone wins
+-readme
