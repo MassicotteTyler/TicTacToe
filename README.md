@@ -1,4 +1,4 @@
 TicTacToe
 =========
 
-Jscript tic tac toe
+Javascript tic tac toe
