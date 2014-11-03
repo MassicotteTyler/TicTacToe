@@ -36,12 +36,12 @@ function spawnPiece() {
 	piece += currentPiece;
 	piece += '" ';
 	if(turn == 1) {
-		piece += 'name="X" src="X.png" alt="X" ';
+		piece += 'name="X" src="images/X.png" alt="X" ';
 		turn = 2;
 	}
 	else
 	{
-		piece += 'name="O" src="O.png" alt="O" ';
+		piece += 'name="O" src="images/O.png" alt="O" ';
 		turn = 1;
 	}
 	piece += 'draggable="false" width="75" height="75" />';
@@ -49,21 +49,23 @@ function spawnPiece() {
 }	
 
 function runTest() {
-	document.getElementById("jRunning").innerHTML = "JScript running";
+	console.log("Javascript running");
 }
 
 function turnCheck() {
 	
-	document.getElementById("jRunning").innerHTML = "turnCheck called";
+
 	if(turn == 1)
 	{
 		document.getElementById("drag2").setAttribute("draggable", "false");
 		document.getElementById("drag1").setAttribute("draggable", "true");
+		document.getElementById("turnArrow").style.float = "left";
 	}
 	if(turn == 2)
 	{
 		document.getElementById("drag1").setAttribute("draggable", "false");
 		document.getElementById("drag2").setAttribute("draggable", "true");
+		document.getElementById("turnArrow").style.float = "right";
 	}
 	
 }
