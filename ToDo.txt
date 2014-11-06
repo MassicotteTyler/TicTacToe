@@ -2,4 +2,3 @@
 -zodiac images
 -detect when someone wins
 -readme
--remove css elements from the HTML file
