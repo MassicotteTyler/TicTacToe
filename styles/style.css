@@ -3,7 +3,6 @@ body, html {
 	Background-color: #151515;
 }
 
-
 #container {
 	width: 100%;
 	height: 100%;
@@ -55,20 +54,3 @@ body, html {
 	margin: auto;
 }
 
-#title {
-	margin: auto;
-	
-	font-family: "Lucida Console";
-	color: green;
-	
-}
-
-#turnArrow {
-	clear: left;
-	float: left;
-	
-	height: 79px;
-	padding-left: 10%;
-	padding-right:13%;
-	
-}

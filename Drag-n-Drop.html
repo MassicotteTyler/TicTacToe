@@ -7,8 +7,8 @@
 </head>
 <body>
 <div id="container">
-	<div id="gameBoard">
-		<div id="title"><h3>Chinese Zodiac Tic-Tac-Toe</h3></div>
+	<p id="jRunning"></p>
+		<div id="gameBoard">
 			<div id="topRow">
 				<div id="div1" ondrop="drop(event), turnOff(this.id), color(this.id)" ondragover="allowDrop(event)"></div>
 				<div id="div2" ondrop="drop(event), turnOff(this.id), color(this.id)" ondragover="allowDrop(event)"></div>
@@ -26,14 +26,10 @@
 			</div>
 			<div id="pieces">
 				<div id="Xpiece">
-					<img id="drag1" class="piece" src="images/X.png" draggable="true" ondragstart="drag(event)" width="75" height="75" />
+					<img id="drag1" class="piece" src="X.png" draggable="true" ondragstart="drag(event)" width="75" height="75" />
 				</div>	
 				<div id="Opiece">
-					<img id="drag2" class="piece" src="images/O.png" draggable="true" ondragstart="drag(event)" width="75" height="75" />
-				</div>
-				<div id="turnArrow">
-					<img id="arrow" src="images/UpArrow.gif" alt="Arrow" draggable="false"/> 
-					
+					<img id="drag2" class="piece" src="O.png" draggable="true" ondragstart="drag(event)" width="75" height="75" />
 				</div>
 			</div>
 		</div>
